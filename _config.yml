@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/OxNinja
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,7 +17,7 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: projects_url
+  projects: https://github.com/OxNinja
 
 
 # Links to your social media accounts.
@@ -25,11 +25,8 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  github: http://github.com/OxNinja
+  twitter: https://twitter.com/0x_Ninja
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -42,8 +39,8 @@ tags_overview: false
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 5
-  sort_updated: false
+  post_count: 6
+  sort_updated: true
 
 # Customize the archive view.
 # Options:
@@ -72,10 +69,10 @@ post:
 #   - gravatar: whether to use your Gravatar as the logo
 logo:
   enabled: true
-  width: 50
-  height: 50
+  width: 96
+  height: 96
   url: /images/logo.png
-  gravatar: false
+  gravatar: true
 
 # Customize the favicons.
 # Cactus supports a limited set of the three most important icons:
@@ -89,13 +86,13 @@ logo:
 favicon:
   desktop:
     url: /images/favicon.ico
-    gravatar: false
+    gravatar: true
   android:
     url: /images/favicon-192x192.png
-    gravatar: false
+    gravatar: true
   apple:
     url: /images/apple-touch-icon.png
-    gravatar: false
+    gravatar: true
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
@@ -147,4 +144,4 @@ baidu_analytics:
 # Fill in you Gravatar user id / email if you want to use your gravatar as the
 # logo and/or favicons of you website.
 gravatar:
-  email: name@email.com
+  email: 0xninjabzh@gmail.com
