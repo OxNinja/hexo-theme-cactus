@@ -1,6 +1,8 @@
-# Cactus
+# Ninja!
 
 A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal website.
+
+Forked from :
 
 :cactus: [Demo](https://probberechts.github.io/hexo-theme-cactus/)
 
@@ -16,13 +18,13 @@ A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal websi
 
 ## General
 
-- **Version** : 3.0
+- **Version** : 1.0
 - **Compatibility** : Hexo 3 or later
 
 ## Features
 
 - Fully responsive
-- Multiple color schemes
+- Dark & red color scheme
 - Pick your own code highlighting scheme
 - Configurable navigation menu
 - Support for local search
@@ -37,14 +39,14 @@ A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal websi
 1. In the `root` directory:
 
     ```git
-    $ git clone https://github.com/probberechts/hexo-theme-cactus.git themes/cactus
+    $ git clone https://github.com/OxNinja/hexo-theme-cactus.git themes/ninja
     ```
 
 2. Change the `theme` property in the `config.yml` file.
 
     ```yml
     # theme: landscape
-    theme: cactus
+    theme: ninja
     ```
     See below for more information on how to customize this theme.
     
@@ -74,35 +76,6 @@ There are two possible methods to override the defaults. As a first option,
 you could fork the theme and maintain a custom branch with your settings.
 Alternatively, you can configure it from your site's primary configuration
 file. Therefore, define your custom settings under the `theme_config` variable.
-For example:
-
-```yml
-# _config.yml
-theme_config:
-  colorscheme: white
-```
-
-
-```yml
-# themes/cactus/_config.yml
-colorscheme: dark
-```
-
-This will override the default black colorscheme in `themes/cactus/_config.yml`.
-
-
-### Color scheme
-
-Currently, this theme is delivered with four color schemes: [dark](https://probberechts.github.io/hexo-theme-cactus/cactus-dark/public/), [light](https://probberechts.github.io/hexo-theme-cactus/cactus-light/public/),
-[white](https://probberechts.github.io/hexo-theme-cactus/cactus-white/public/) and [classic](https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/). Set your preferred color scheme in the `_config.yml` file.
-
-```yml
-colorscheme: light
-```
-
-Alternatively, you can easily create your own color scheme by creating a new
-file in `source/css/_colors`.
-
 
 ### Navigation
 
