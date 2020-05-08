@@ -27,6 +27,7 @@ nav:
 social_links:
   github: http://github.com/OxNinja
   twitter: https://twitter.com/0x_Ninja
+  font-awesome: https://root-me.org/0xNinja
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
